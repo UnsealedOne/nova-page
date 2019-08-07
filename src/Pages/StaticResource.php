@@ -17,7 +17,7 @@ abstract class StaticResource extends Resource
      *
      * @var null
      */
-    public static $model = null;
+    public static $model = false;
 
     /**
      * The single value that should be used to represent the resource when being displayed.
